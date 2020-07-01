@@ -15,4 +15,10 @@ class PropsPractice  extends React.Component {
   };
 }
 
+PropsPractice.defaultProps={
+  Name:"abc",
+  Age:"12" ,
+  Email:"someone@gmail.com",
+  PhoneNo:"0000000000" 
+};
 export default PropsPractice;
